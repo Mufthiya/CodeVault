@@ -1,0 +1,230 @@
+
+Navigation Menu
+deepi2096
+Nmproject-
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Commit d2c3454
+deepi2096
+deepi2096
+authored
+2 days ago
+Verified
+Create NMoutput
+main
+1 parent 
+339e799
+ commit 
+d2c3454
+File tree
+Filter files…
+NMoutput
+1 file changed
++217
+-0
+lines changed
+Search within code
+ 
+‎NMoutput
++217
+Lines changed: 217 additions & 0 deletions
+Original file line number	Diff line number	Diff line change
+@@ -0,0 +1,217 @@
+#dataset
+Transaction_ID  Time (sec)  Amount ($) Location  Merchant_Type Card_Type  \
+0          TXN001         913      129.93   London           Food    Credit   
+1          TXN002        4468      439.26   Mumbai    Electronics    Credit   
+2          TXN003        4140     3012.08       LA         Travel     Debit   
+3          TXN004          54     3795.24  Chicago         Travel     Debit   
+4          TXN005        1764     4786.28   Berlin    Electronics    Credit   
+5          TXN006        2818     3020.61      NYC         Travel     Debit   
+6          TXN007        4523     1469.43   Berlin        Jewelry    Credit   
+7          TXN008        2371     4926.18       LA  Entertainment    Credit   
+8          TXN009        2989      817.46   Berlin           Food     Debit   
+9          TXN010        4376     3646.99  Chicago       Clothing     Debit   
+10         TXN011        2657     4215.05      NYC           Food    Credit   
+11         TXN012         543     1058.86   Berlin           Food     Debit   
+12         TXN013        1171     1328.08       LA         Travel     Debit   
+13         TXN014        2966     1100.51  Chicago        Jewelry     Debit   
+14         TXN015        1253     3139.09   Mumbai        Jewelry    Credit   
+15         TXN016        4335     1260.81      NYC         Travel    Credit   
+16         TXN017         914     1471.03  Chicago       Clothing    Credit   
+17         TXN018        4159     4563.58   London  Entertainment    Credit   
+18         TXN019        4419     4767.73      NYC        Jewelry     Debit   
+19         TXN020        2974     4394.22   London           Food    Credit   
+20         TXN021         702     3660.88       SF  Entertainment    Credit   
+21         TXN022        4504      829.81   Mumbai           Food    Credit   
+22         TXN023        3589     4498.57    Tokyo    Electronics    Credit   
+23         TXN024         173     2943.60       LA        Jewelry    Credit   
+24         TXN025        1876      341.66      NYC  Entertainment     Debit   
+   Is_International Device_Type Transaction_Mode  Is_Fraud  
+0               Yes      Tablet           Online         0  
+1               Yes      Mobile           Online         1  
+2               Yes     Desktop         In-Store         0  
+3                No     Desktop           Online         0  
+4                No      Mobile         In-Store         0  
+5               Yes     Desktop           Online         0  
+6               Yes      Mobile           Online         0  
+7                No     Desktop         In-Store         0  
+8               Yes      Tablet           Online         0  
+9                No      Tablet           Online         0  
+10               No     Desktop         In-Store         0  
+11               No      Tablet         In-Store         1  
+12               No      Tablet         In-Store         0  
+13              Yes      Mobile           Online         0  
+14               No     Desktop         In-Store         0  
+15               No      Tablet         In-Store         0  
+16               No      Tablet           Online         0  
+17              Yes     Desktop           Online         0  
+18               No      Mobile           Online         0  
+19              Yes      Tablet           Online         0  
+20              Yes      Tablet         In-Store         0  
+21               No     Desktop         In-Store         0  
+22              Yes      Mobile         In-Store         0  
+23              Yes      Mobile           Online         0  
+24              Yes      Tablet           Online         0  
+#fiina
+ Transaction_ID  Time (sec)  Amount ($) Location  Merchant_Type Card_Type  \
+0          TXN001         913      129.93   London           Food    Credit   
+1          TXN002        4468      439.26   Mumbai    Electronics    Credit   
+2          TXN003        4140     3012.08       LA         Travel     Debit   
+3          TXN004          54     3795.24  Chicago         Travel     Debit   
+4          TXN005        1764     4786.28   Berlin    Electronics    Credit   
+5          TXN006        2818     3020.61      NYC         Travel     Debit   
+6          TXN007        4523     1469.43   Berlin        Jewelry    Credit   
+7          TXN008        2371     4926.18       LA  Entertainment    Credit   
+8          TXN009        2989      817.46   Berlin           Food     Debit   
+9          TXN010        4376     3646.99  Chicago       Clothing     Debit   
+10         TXN011        2657     4215.05      NYC           Food    Credit   
+11         TXN012         543     1058.86   Berlin           Food     Debit   
+12         TXN013        1171     1328.08       LA         Travel     Debit   
+13         TXN014        2966     1100.51  Chicago        Jewelry     Debit   
+14         TXN015        1253     3139.09   Mumbai        Jewelry    Credit   
+15         TXN016        4335     1260.81      NYC         Travel    Credit   
+16         TXN017         914     1471.03  Chicago       Clothing    Credit   
+17         TXN018        4159     4563.58   London  Entertainment    Credit   
+18         TXN019        4419     4767.73      NYC        Jewelry     Debit   
+19         TXN020        2974     4394.22   London           Food    Credit   
+20         TXN021         702     3660.88       SF  Entertainment    Credit   
+21         TXN022        4504      829.81   Mumbai           Food    Credit   
+22         TXN023        3589     4498.57    Tokyo    Electronics    Credit   
+23         TXN024         173     2943.60       LA        Jewelry    Credit   
+24         TXN025        1876      341.66      NYC  Entertainment     Debit   
+   Is_International Device_Type Transaction_Mode  Is_Fraud  
+0               Yes      Tablet           Online         0  
+1               Yes      Mobile           Online         1  
+2               Yes     Desktop         In-Store         0  
+3                No     Desktop           Online         0  
+4                No      Mobile         In-Store         0  
+5               Yes     Desktop           Online         0  
+6               Yes      Mobile           Online         0  
+7                No     Desktop         In-Store         0  
+8               Yes      Tablet           Online         0  
+9                No      Tablet           Online         0  
+10               No     Desktop         In-Store         0  
+11               No      Tablet         In-Store         1  
+12               No      Tablet         In-Store         0  
+13              Yes      Mobile           Online         0  
+14               No     Desktop         In-Store         0  
+15               No      Tablet         In-Store         0  
+16               No      Tablet           Online         0  
+17              Yes     Desktop           Online         0  
+18               No      Mobile           Online         0  
+19              Yes      Tablet           Online         0  
+20              Yes      Tablet         In-Store         0  
+21               No     Desktop         In-Store         0  
+22              Yes      Mobile         In-Store         0  
+23              Yes      Mobile           Online         0  
+24              Yes      Tablet           Online         0  
+#billna
+ Transaction_ID  Time (sec)  Amount ($) Location  Merchant_Type Card_Type  \
+0          TXN001         913      129.93   London           Food    Credit   
+1          TXN002        4468      439.26   Mumbai    Electronics    Credit   
+2          TXN003        4140     3012.08       LA         Travel     Debit   
+3          TXN004          54     3795.24  Chicago         Travel     Debit   
+4          TXN005        1764     4786.28   Berlin    Electronics    Credit   
+5          TXN006        2818     3020.61      NYC         Travel     Debit   
+6          TXN007        4523     1469.43   Berlin        Jewelry    Credit   
+7          TXN008        2371     4926.18       LA  Entertainment    Credit   
+8          TXN009        2989      817.46   Berlin           Food     Debit   
+9          TXN010        4376     3646.99  Chicago       Clothing     Debit   
+10         TXN011        2657     4215.05      NYC           Food    Credit   
+11         TXN012         543     1058.86   Berlin           Food     Debit   
+12         TXN013        1171     1328.08       LA         Travel     Debit   
+13         TXN014        2966     1100.51  Chicago        Jewelry     Debit   
+14         TXN015        1253     3139.09   Mumbai        Jewelry    Credit   
+15         TXN016        4335     1260.81      NYC         Travel    Credit   
+16         TXN017         914     1471.03  Chicago       Clothing    Credit   
+17         TXN018        4159     4563.58   London  Entertainment    Credit   
+18         TXN019        4419     4767.73      NYC        Jewelry     Debit   
+19         TXN020        2974     4394.22   London           Food    Credit   
+20         TXN021         702     3660.88       SF  Entertainment    Credit   
+21         TXN022        4504      829.81   Mumbai           Food    Credit   
+22         TXN023        3589     4498.57    Tokyo    Electronics    Credit   
+23         TXN024         173     2943.60       LA        Jewelry    Credit   
+24         TXN025        1876      341.66      NYC  Entertainment     Debit   
+   Is_International Device_Type Transaction_Mode  Is_Fraud  
+0               Yes      Tablet           Online         0  
+1               Yes      Mobile           Online         1  
+2               Yes     Desktop         In-Store         0  
+3                No     Desktop           Online         0  
+4                No      Mobile         In-Store         0  
+5               Yes     Desktop           Online         0  
+6               Yes      Mobile           Online         0  
+7                No     Desktop         In-Store         0  
+8               Yes      Tablet           Online         0  
+9                No      Tablet           Online         0  
+10               No     Desktop         In-Store         0  
+11               No      Tablet         In-Store         1  
+12               No      Tablet         In-Store         0  
+13              Yes      Mobile           Online         0  
+14               No     Desktop         In-Store         0  
+15               No      Tablet         In-Store         0  
+16               No      Tablet           Online         0  
+17              Yes     Desktop           Online         0  
+18               No      Mobile           Online         0  
+19              Yes      Tablet           Online         0  
+20              Yes      Tablet         In-Store         0  
+21               No     Desktop         In-Store         0  
+22              Yes      Mobile         In-Store         0  
+23              Yes      Mobile           Online         0  
+24              Yes      Tablet           Online         0  
+(25, 10)
+Index(['Transaction_ID', 'Time (sec)', 'Amount ($)', 'Location',
+       'Merchant_Type', 'Card_Type', 'Is_International', 'Device_Type',
+       'Transaction_Mode', 'Is_Fraud'],
+      dtype='object')
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 25 entries, 0 to 24
+Data columns (total 10 columns):
+ #   Column            Non-Null Count  Dtype  
+---  ------            --------------  -----  
+ 0   Transaction_ID    25 non-null     object 
+ 1   Time (sec)        25 non-null     int64  
+ 2   Amount ($)        25 non-null     float64
+ 3   Location          25 non-null     object 
+ 4   Merchant_Type     25 non-null     object 
+ 5   Card_Type         25 non-null     object 
+ 6   Is_International  25 non-null     object 
+ 7   Device_Type       25 non-null     object 
+ 8   Transaction_Mode  25 non-null     object 
+ 9   Is_Fraud          25 non-null     int64  
+dtypes: float64(1), int64(2), object(7)
+memory usage: 2.1+ KB
+None
+        Time (sec)   Amount ($)   Is_Fraud
+count    25.000000    25.000000  25.000000
+mean   2586.040000  2624.677600   0.080000
+std    1548.703933  1649.961649   0.276887
+min      54.000000   129.930000   0.000000
+25%    1171.000000  1100.510000   0.000000
+50%    2818.000000  3012.080000   0.000000
+75%    4159.000000  4215.050000   0.000000
+max    4523.000000  4926.180000   1.000000
+#data visualization

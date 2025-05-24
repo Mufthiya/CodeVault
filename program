@@ -1,0 +1,47 @@
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+df.head()
+df
+
+df.tail()
+
+df.info()
+
+df.isnull().sum()
+
+df['Class'].value_counts()
+
+legit = df[df['Class'] == 0]
+fraud = df[df['Class'] == 1]
+
+print(legit.shape)
+print(fraud.shape)
+
+legit.Amount.describe()
+
+fraud.Amount.describe()
+
+new_dataset=pd.concat([legit_sample,fraud],axis=0)
+new_dataset.head()
+
+new_dataset.tail()
+
+df.groupby('Class').mean()
+
+new_dataset['Class'].value_counts()
+
+X = df.drop('Class',axis=1)
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.30)
+
+from sklearn import tree
+plt.figure(figsize=(20,25))
+tree.plot_tree(dtree,feature_names=X.columns,class_names=['Class-1', 'Class-0'],rounded=True, # Rounded node edges
+          filled=True, # Adds color according to class
+          proportion=True
+        )
+plt.show()
